@@ -6,7 +6,6 @@ Style derived from Gazelle Postmod
 *********************************************************/
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,bold);
 @import url(https://gitcdn.xyz/repo/pulgalipe/haze-minimal/master/layout-grayscale.css);
-@import url(https://gitcdn.xyz/repo/pulgalipe/haze-minimal/master/blur.css);
 
 /* Background Image */
 body {background-color: #000;}
