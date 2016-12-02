@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,bold);
+@import url('https://fonts.googleapis.com/css?family=Arimo');
 
 * {
 	padding:0;
@@ -833,7 +833,6 @@ p.min_padding {
 }
 .box {
 	font-size:13px;
-	background:url("https://i.imgur.com/0WneaBT.png") repeat;
 	margin-bottom:2px;
 	word-wrap:break-word
 }
@@ -893,7 +892,6 @@ table {
 tr {
 	border:solid rgba(33,33,33,0.1);
 	border-width:0 0 1px 0;
-	background:url("https://i.imgur.com/0WneaBT.png") repeat
 }
 tr.rowa {
 	background:url("https://i.imgur.com/0WneaBT.png") repeat !important
@@ -935,12 +933,10 @@ td,th {
 }
 .head,#reply_box h3,#inbox h3,#discog_table>.box.center,.colhead,.colhead_dark {
 	padding:12px;
-	background:linear-gradient(rgba(33,33,33,0.5), rgba(33,33,33,0.58));
+	background:#242424;
 	color:#fff !important;
 	text-transform:uppercase;
-	border:1px rgba(0,0,0,0.1);
-	border-radius:1px;
-	box-shadow:0 1px 3px 0 rgba(0,0,0,0.05);
+	border-radius:3px;
 	font-size:12px;
 	font-weight:400 !important
 }
@@ -1085,7 +1081,7 @@ ul.poll li.graph {
 	border:none
 }
 .torrent_table tr.group_torrent {
-	background-color:rgba(255,255,255,0.05)
+	background-color:#484848
 }
 tr.group_torrent td,tr.group td,tr.torrent td {
 	color:#fff
@@ -1552,7 +1548,8 @@ select {
 }
 @-moz-document url-prefix() {
 	#searchbars input {
-		padding:8px
+		padding:8px;
+		border-radius: 3px
 	}
 }
 option {
