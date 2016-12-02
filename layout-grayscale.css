@@ -10,7 +10,7 @@ body {
 	background-position:center center;
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-color:#424242;
+	background-color:#484848;
 	font-family:'Source Sans Pro',Helvetica,Arial,sans-serif;
 	font-size:12px;
 	font-weight:300;
@@ -221,7 +221,7 @@ ul.thin li {
 	border:none;
 	width:235px;
 	height:58px;
-	background:url("https://i.imgur.com/sLr2Ckv.png") no-repeat top left;
+	background: url('http://i.imgur.com/z2GtTkT.png') no-repeat top left;background-size: 250px 58px;
 	display:block;
 	margin-left:-14px
 }
@@ -428,10 +428,9 @@ ul.thin li {
 	box-sizing:border-box;
 	position:absolute;
 	top:0;
-	background-color: #000;
+	background-color: #484848;
 	height:42px;
 	width:100%;
-	box-shadow:0 1px 3px 0 rgba(0,0,0,0.05);
 	z-index:-1
 }
 #userinfo_stats {
@@ -632,11 +631,9 @@ ul.thin li {
 	width:898px;
 	height:34px;
 	padding:8px 0;
-	border:1px solid rgba(0,0,0,0.07);
-	background:rgba(33,33,33,0.1);
-	background-image:url('https://i.imgur.com/4zIhAoG.png');
-	background-repeat:no-repeat;
-	background-position:13px 14px;
+	background:#484848;
+	position: relative;
+	left: -13px;
 	margin-bottom:10px
 }
 #searchbars input {
@@ -884,10 +881,6 @@ p.min_padding {
 .noborder {
 	border:none
 }
-div#menu #nav_torrents a {
-	border-top-left-radius: 6px;
-    	border-bottom-left-radius: 6px;
-}
 ul.nobullet {
 	list-style-type:none
 }
@@ -895,9 +888,6 @@ table {
 	width:100%;
 	border-collapse:collapse;
 	border:none
-}
-td.avatar img {
-    border-radius: 6px;
 }
 tr {
 	border:solid rgba(33,33,33,0.1);
@@ -1466,7 +1456,7 @@ input[type=button],input[type=submit] {
 	color:#212121;
 	text-decoration:none;
 	border:solid rgba(255,255,255,0.2);
-	border-radius:1px;
+	border-radius:3px;
 	border-width:0 0 1px 0;
 	cursor:pointer;
 	outline:none
@@ -1907,7 +1897,10 @@ img[src="static/common/symbols/donor_6.png"] {
 .filter_torrents {
     border-radius: 6px;
 }
-
-input[type="button"], input[type="submit"] {
-    border-radius: 3px;
+div#menu #nav_torrents a {
+	border-top-left-radius: 6px;
+    	border-bottom-left-radius: 6px;
+}
+td.avatar img {
+    border-radius: 6px;
 }
