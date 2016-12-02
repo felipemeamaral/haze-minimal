@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,bold);
+
 * {
 	padding:0;
 	margin:0
@@ -1182,7 +1184,7 @@ tr.group_torrent td,tr.group td,tr.torrent td {
 	background:url('https://i.imgur.com/jwMhCLc.png') no-repeat center center
 }
 .read {
-	background:url('https://i.imgur.com/GHUeaCI.png') no-repeat center center
+	background: url('https://i.imgur.com/2iuJIm7.png') no-repeat center center
 }
 table.forum_post {
 	margin:2px 0
@@ -1893,4 +1895,14 @@ img[src="static/common/symbols/donor_6.png"] {
 }
 #log span[style="color: blue;"],#log span[style="color: red;"],#log span[style="color: green;"] {
 	color:#fff !important
+}
+.filter_torrents {
+    	border-radius: 6px
+}
+div#menu #nav_torrents a {
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px
+}
+td.avatar img {
+    	border-radius: 6px
 }
