@@ -13,13 +13,6 @@ body {background-color: #484848;}
 .read {background: url('https://i.imgur.com/2iuJIm7.png') no-repeat center center;}
 #extra3:after {background-color: #000;}
 .read_locked_sticky { background: url(https://i.imgur.com/9kbxnhM.png) no-repeat center center;}
-.filter_torrents {
-    border-radius: 6px
-}
-div#menu #nav_torrents a {
-	border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px
-}
 td.avatar img {
     border-radius: 6px
 }
