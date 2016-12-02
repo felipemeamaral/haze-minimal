@@ -568,8 +568,7 @@ ul.thin li {
 	position:relative;
 	right:-9999px;
 	background-image:url('https://i.imgur.com/j8XvFVC.png'),linear-gradient(rgba(33,33,33,0.16), rgba(33,33,33,0.18));
-	background-repeat:no-repeat,repeat;
-	border-top-right-radius: 6px;
+	background-repeat:no-repeat,repeat
 }
 #userinfo_minor:hover:before {
 	position:relative;
@@ -1898,10 +1897,6 @@ img[src="static/common/symbols/donor_6.png"] {
 }
 .filter_torrents {
     	border-radius: 6px
-}
-div#menu #nav_torrents a {
-	border-top-left-radius: 6px;
-	border-bottom-left-radius: 6px
 }
 td.avatar img {
     	border-radius: 6px
