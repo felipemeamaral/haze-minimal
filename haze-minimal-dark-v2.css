@@ -321,7 +321,7 @@ ul.thin li {
 }
 #nav_staff {
 	position:absolute;
-	margin:-100px 0 0 713px !important
+	margin:-80px 0 0 713px !important
 }
 #nav_staff a {
 	-moz-box-sizing:border-box;
@@ -355,7 +355,7 @@ ul.thin li {
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
-	margin:-101px 0 0 765px;
+	margin:-80px 0 0 765px;
 	float:right;
 	height:42px;
 	line-height:42px;
@@ -1710,16 +1710,13 @@ a[onclick^="remove_selection"] .brackets:before,a[onclick^="remove_selection"] .
 strong.important_text,.invalid,.warning,.error,.new {
 	color:#fff !important;
 	font-weight:600 !important;
-	text-shadow:0 0 2px rgba(255,255,255,0.8)
 }
 strong.important_text_alt {
 	color:#82ff6e !important;
-	text-shadow:0 0 2px rgba(130,255,110,0.8)
 }
 span[style="color: red;"] {
 	color:#fff !important;
 	font-weight:600 !important;
-	text-shadow:0 0 2px rgba(255,255,255,0.8)
 }
 #rules .box.pad.rule_table {
 	padding:0 !important
