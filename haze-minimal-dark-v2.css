@@ -327,23 +327,21 @@ ul.thin li {
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
-	height:42px !important;
-	width:50px !important;
-	color:transparent !important
-}
-#nav_staff a {
-	filter: brightness(50%);
-	background:url('https://i.imgur.com/LMa8mAH.png') !important;
-	background-position:0 0 !important;
-	color: #a1a1a1;
+	height:38px!important;
+	width:50px!important;
+	color:transparent!important;
+	background:url(https://i.imgur.com/ua8et5N.png) no-repeat top left;
+	background-size:38px
 }
 #nav_staff a:hover {
-	background:url('https://i.imgur.com/LMa8mAH.png') !important;
-	background-position:0 83px !important
+	background:url(https://i.imgur.com/ViQAU6I.png) no-repeat top left!important;
+	background-size:38px!important;
+	background-color:transparent!important;
+	margin-top:-1px!important
 }
 #nav_staff a:active {
-	background:url('https://i.imgur.com/LMa8mAH.png') !important;
-	background-position:0 41px !important
+	background:url(https://i.imgur.com/ua8et5N.png) no-repeat top left;
+	background-size:42px
 }
 #userinfo {
 	position:relative;
@@ -376,57 +374,55 @@ ul.thin li {
 	margin:0 0 0 -2px !important
 }
 #userinfo_major #nav_upload a {
-	filter: brightness(50%);
-	background:url('https://i.imgur.com/hot0Jzc.png');
-	background-position:0 0
+	background:url(https://i.imgur.com/FgNnS5C.png) no-repeat top left;
+	background-size:38px
 }
 #userinfo_major #nav_upload a:hover {
-	background:url('https://i.imgur.com/hot0Jzc.png');
-	background-position:0 84px
+	background:url(https://i.imgur.com/BfwevuK.png) no-repeat top left;
+	background-size:38px
 }
 #userinfo_major #nav_upload a:active {
-	background:url('https://i.imgur.com/hot0Jzc.png');
-	background-position:0 42px
+	background:url(https://i.imgur.com/FgNnS5C.png) no-repeat top left;
+	background-size:38px
 }
 #userinfo_major #nav_invite a {
-	filter: brightness(50%);
-	background:url('https://i.imgur.com/RU2imw6.png');
+	background:url(https://i.imgur.com/johRGly.png) no-repeat top left;
+	background-size:38px;
 	background-position:0 0
 }
 #userinfo_major #nav_invite a:hover {
-	background:url('https://i.imgur.com/RU2imw6.png');
-	background-position:0 84px
+	background:url(https://i.imgur.com/bmZo2bq.png) no-repeat top left;
+	background-size:38px
 }
 #userinfo_major #nav_invite a:active {
-	background:url('https://i.imgur.com/RU2imw6.png');
-	background-position:0 42px
+	background:url(https://i.imgur.com/johRGly.png) no-repeat top left;
+	background-size:38px
 }
 #userinfo_major #nav_store a {
-	margin-left:-100px
-}
-#userinfo_major #nav_store a {
-	background:url('https://i.imgur.com/IRVh2R9.png');
+	margin-left:-100px;
+	background:url(https://i.imgur.com/IRVh2R9.png);
 	background-position:0 0
 }
 #userinfo_major #nav_store a:hover {
-	background:url('https://i.imgur.com/IRVh2R9.png');
+	background:url(https://i.imgur.com/IRVh2R9.png);
 	background-position:0 84px
 }
 #userinfo_major #nav_store a:active {
-	background:url('https://i.imgur.com/IRVh2R9.png');
-	background-position:0 42px
+	background:url(https://i.imgur.com/IRVh2R9.png);
+	background-position:0 38px
 }
 #userinfo_major #nav_donate a {
-	background:url('https://i.imgur.com/KrVOpw5.png');
+	background:url(https://i.imgur.com/r2SiLH1.png) no-repeat top left;
+	background-size:38px;
 	background-position:0 0
 }
 #userinfo_major #nav_donate a:hover {
-	background:url('https://i.imgur.com/KrVOpw5.png');
-	background-position:0 84px
+	background:url(https://i.imgur.com/p22iYRQ.png) no-repeat top left;
+	background-size:38px
 }
 #userinfo_major #nav_donate a:active {
-	background:url('https://i.imgur.com/KrVOpw5.png');
-	background-position:0 42px
+	background:url(https://i.imgur.com/r2SiLH1.png) no-repeat top left;
+	background-size:38px
 }
 #extra1 {
 	-moz-box-sizing:border-box;
@@ -1844,19 +1840,22 @@ span.rbb {
 	font-weight:initial !important
 }
 img[alt="Snatches"] {
-  height:15px;
-  padding-right:15px;
-  width:0
+	background:url(https://i.imgur.com/qNWsRe8.png) no-repeat scroll 0 0 transparent;
+	height:15px;
+	padding-right:15px;
+	width:0
 }
 img[alt="Seeders"] {
-  height:15px;
-  padding-right:11px;
-  width:0
+	background:url(https://i.imgur.com/Y1JRS7X.png) no-repeat scroll 0 0 transparent;
+	height:15px;
+	padding-right:11px;
+	width:0
 }
 img[alt="Leechers"] {
-  height:15px;
-  padding-right:11px;
-  width:0
+	background:url(https://i.imgur.com/Jbhygxk.png) no-repeat scroll 0 0 transparent;
+	height:15px;
+	padding-right:11px;
+	width:0
 }
 img[src="static/common/symbols/donor.png"] {
 	background:url("https://i.imgur.com/9ETtDEW.png") no-repeat scroll 0 0 transparent;
