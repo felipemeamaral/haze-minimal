@@ -329,12 +329,11 @@ ul.thin li {
   box-sizing:border-box;
   height:42px !important;
   width:50px !important;
-  color:transparent !important
-}
-#nav_staff a {
+  color:transparent !important;
   background:url(https://i.imgur.com/ua8et5N.png) no-repeat top left;
   background-position:0 0 !important;
   color: #a1a1a1;
+  background-size:38px;
 }
 #nav_staff a:hover {
   background:url(https://i.imgur.com/ViQAU6I.png) no-repeat top left!important;
