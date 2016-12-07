@@ -378,6 +378,7 @@ ul.thin li {
 	background:url() no-repeat top left;
 	background-size:38px;
 	color:#fff;
+	margin-right: 10px;
 }
 #userinfo_major #nav_upload a:hover {
 	color:rgba(255,255,255,0.8);
@@ -392,6 +393,7 @@ ul.thin li {
 	background-size:38px;
 	background-position:0 0;
 	color:#fff;
+	margin-right: 10px;
 }
 #userinfo_major #nav_invite a:hover {
 	color:rgba(255,255,255,0.8);
