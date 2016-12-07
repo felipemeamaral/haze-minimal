@@ -321,57 +321,6 @@ ul.thin li {
 }
 #nav_staff {
 	position:absolute;
-	margin:-80px 0 0 713px !important
-}
-#nav_staff a {
-	-moz-box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	box-sizing:border-box;
-	height:38px!important;
-	width:50px!important;
-	color:transparent!important;
-	background:url(https://i.imgur.com/ua8et5N.png) no-repeat top left;
-	background-size:38px
-}
-#nav_staff a:hover {
-	background:url(https://i.imgur.com/ViQAU6I.png) no-repeat top left!important;
-	background-size:38px!important;
-	background-color:transparent!important;
-	margin-top:-1px!important
-}
-#nav_staff a:active {
-	background:url(https://i.imgur.com/ua8et5N.png) no-repeat top left;
-	background-size:42px
-}
-#userinfo {
-  position:relative;
-  color:#fff;
-  width:100%;
-  text-transform:uppercase;
-  list-style:none
-}
-#userinfo_major {
-  position:absolute;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-  box-sizing:border-box;
-  margin:-80px 0 0 765px;
-  float:right;
-  height:42px;
-  line-height:42px;
-  white-space:nowrap
-}
-#userinfo_major li a {
-  display:inline-block;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-  box-sizing:border-box;
-  width:50px;
-  height:42px;
-  color:transparent
-}
-#nav_staff {
-	position:absolute;
 	margin:-90px 0 0 708px!important
 }
 #nav_staff a {
