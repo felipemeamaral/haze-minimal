@@ -723,7 +723,7 @@ ul.thin li {
 }
 .autocomplete-suggestions strong {
 	font-weight:300;
-	color:rgba(255,255,255,0.5) !important;
+	color:#afafaf !important;
 }
 #alerts {
 	width:900px;
