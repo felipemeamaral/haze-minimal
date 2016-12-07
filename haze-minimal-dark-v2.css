@@ -714,12 +714,12 @@ ul.thin li {
 	padding:8px 11px 8px 8px
 }
 .autocomplete-selected {
-	color:#3b3b3b;
+	color:#afafaf;
 	background:#fff
 }
 .autocomplete-selected strong {
 	font-weight:300;
-	color:rgba(59,59,59,0.9) !important
+	color:#afafaf !important
 }
 .autocomplete-suggestions strong {
 	font-weight:300;
