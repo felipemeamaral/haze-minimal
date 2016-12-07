@@ -370,32 +370,86 @@ ul.thin li {
   height:42px;
   color:transparent
 }
-#userinfo_major li {
-  margin:0 0 0 -2px !important
+#nav_staff {
+	position:absolute;
+	margin:-90px 0 0 708px!important
 }
-#userinfo_major #nav_upload a {
-	background:url(https://i.imgur.com/FgNnS5C.png) no-repeat top left;
+#nav_staff a {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	height:38px!important;
+	margin-top:11px;
+	width:50px!important;
+	color:#fff!important;
+	background:url() no-repeat top left;
 	background-size:38px
 }
+#nav_staff a:hover {
+	font-weight:400!important;
+	color:rgba(255,255,255,0.8)!important;
+	background-color:transparent!important;
+	margin-top:10px!important
+}
+#nav_staff a:active {
+	background:url() no-repeat top left;
+	background-size:42px
+}
+#userinfo {
+	position:relative;
+	color:#fff;
+	width:100%;
+	text-transform:uppercase;
+	list-style:none
+}
+#userinfo_major {
+	position:absolute;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	margin:-65px 0 0 761px;
+	float:right;
+	height:42px;
+	line-height:42px;
+	white-space:nowrap
+}
+#userinfo_major li a {
+	display:inline-block;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	width:50px;
+	height:42px;
+	color:transparent
+}
+#userinfo_major li {
+	margin:0 0 0 -2px!important
+}
+#userinfo_major #nav_upload a {
+	background:url() no-repeat top left;
+	background-size:38px;
+	color:#fff;
+}
 #userinfo_major #nav_upload a:hover {
-	background:url(https://i.imgur.com/BfwevuK.png) no-repeat top left;
+	color:rgba(255,255,255,0.8);
 	background-size:38px
 }
 #userinfo_major #nav_upload a:active {
-	background:url(https://i.imgur.com/FgNnS5C.png) no-repeat top left;
+	color:#fff;
 	background-size:38px
 }
 #userinfo_major #nav_invite a {
-	background:url(https://i.imgur.com/johRGly.png) no-repeat top left;
+	background:url() no-repeat top left;
 	background-size:38px;
-	background-position:0 0
+	background-position:0 0;
+	color:#fff;
 }
 #userinfo_major #nav_invite a:hover {
-	background:url(https://i.imgur.com/bmZo2bq.png) no-repeat top left;
+	color:rgba(255,255,255,0.8);
 	background-size:38px
 }
 #userinfo_major #nav_invite a:active {
-	background:url(https://i.imgur.com/johRGly.png) no-repeat top left;
+	color:#fff;
 	background-size:38px
 }
 #userinfo_major #nav_store a {
@@ -412,16 +466,17 @@ ul.thin li {
 	background-position:0 38px
 }
 #userinfo_major #nav_donate a {
-	background:url(https://i.imgur.com/r2SiLH1.png) no-repeat top left;
+	background:url() no-repeat top left;
 	background-size:38px;
-	background-position:0 0
+	background-position:0 0;
+	color:#fff;
 }
 #userinfo_major #nav_donate a:hover {
-	background:url(https://i.imgur.com/p22iYRQ.png) no-repeat top left;
+	color:rgba(255,255,255,0.8);
 	background-size:38px
 }
 #userinfo_major #nav_donate a:active {
-	background:url(https://i.imgur.com/r2SiLH1.png) no-repeat top left;
+	color:#fff;
 	background-size:38px
 }
 #extra1 {
