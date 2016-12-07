@@ -710,20 +710,33 @@ ul.thin li {
   background:rgba(59,59,59,0.9);
   color:#fff
 }
+.autocomplete-suggestions {
+	font-size:12px;
+	font-weight:300 !important;
+	width:initial !important;
+	max-width:300px !important;
+	max-height:720px !important;
+	border:1px rgba(38,50,64,0.9);
+	border-radius:1px;
+	margin-top:0;
+	border:none;
+	background:rgba(59,59,59,0.9);
+	color:#fff
+}
 .autocomplete-suggestion {
-  padding:8px 11px 8px 8px
+	padding:8px 11px 8px 8px
 }
 .autocomplete-selected {
-  color:#3b3b3b;
-  background:#fff
+	color:#afafaf;
+	background:#fff
 }
 .autocomplete-selected strong {
-  font-weight:300;
-  color:rgba(59,59,59,0.9) !important
+	font-weight:300;
+	color:#afafaf !important
 }
 .autocomplete-suggestions strong {
-  font-weight:300;
-  color:#afafaf !important;
+	font-weight:300;
+	color:#afafaf !important;
 }
 #alerts {
   width:900px;
